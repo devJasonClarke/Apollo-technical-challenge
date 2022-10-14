@@ -6,5 +6,5 @@ interface Props {
 }
 
 export const HeadingSm: React.FC<Props> = ({ text }) => {
-  return <h1 className={styles.heading}>{text}</h1>;
+  return <h2 className={styles.heading}>{text}</h2>;
 };
