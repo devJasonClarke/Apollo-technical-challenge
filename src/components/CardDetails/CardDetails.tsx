@@ -1,5 +1,4 @@
 import React from "react";
-import img from "../../assets/images/card.png";
 import icon from "../../assets/images/Xicon.png";
 import { HeadingSm } from "../HeadingSm/Heading";
 import styles from "./CardDetails.module.scss";
