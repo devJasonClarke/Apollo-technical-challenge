@@ -1,11 +1,11 @@
 import React from "react";
-import styles from "./MainLayout.module.scss";
+import styles from "./LoginLayout.module.scss";
 
 interface Props {
   children: React.ReactNode;
 }
 
-export const MainLayout: React.FC<Props> = ({ children }) => {
+export const LoginLayout: React.FC<Props> = ({ children }) => {
   return (
     <div>
       <div className={styles.topBorder}></div>

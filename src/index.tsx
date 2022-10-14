@@ -14,7 +14,8 @@ import { publicProvider } from "wagmi/providers/public";
 import "./index.scss";
 
 //Layouts
-import { MainLayout } from "./layouts/Main/MainLayout";
+import { LoginLayout } from "./layouts/Login/LoginLayout"; 
+import { DashboardLayout } from "./layouts/Dashboard/DashboardLayout"; 
 
 //Pages
 import Collections from "./pages/Collections/Collections";
@@ -26,17 +27,17 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: (
-      <MainLayout>
+      <LoginLayout>
         <Loggin />
-      </MainLayout>
+      </LoginLayout>
     )
   },
   {
     path: "/collections",
     element: (
-      <MainLayout>
+      <DashboardLayout>
         <Collections />
-      </MainLayout>
+      </DashboardLayout>
     )
   }
 ]);

@@ -37,8 +37,8 @@
 
   margin-top: 20px;
 
-  p {
-    font-weight: 600;
+  P {
+    font-size: 14px;
   }
   img {
     width: 16.67px;
@@ -46,6 +46,6 @@
   }
 
   &:hover {
-    background-color: var(--satin-white);
+    background-color: var(--light-white);
   }
 }
