@@ -1,6 +1,6 @@
-# How to install and run the application
+# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). Please see [Getting Started with create React app] for the basic information needed to start this project.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 

@@ -29,7 +29,7 @@ const Collections: React.FC = () => {
 
   const options: AxiosRequestConfig = {
     method: "GET",
-    url: "https://deep-index.moralis.io/api/v2/0xAf8d40f5d5Ec8054d8dEf099493F1Dc574EA680D/nft",
+    url: `https://deep-index.moralis.io/api/v2/${process.env.REACT_APP_ETH_WALLET}/nft`,
     params: {
       chain: "eth",
       format: "decimal",
