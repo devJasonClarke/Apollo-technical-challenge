@@ -34,9 +34,9 @@ Apollo Technical Challenge
 
 Welcome to the Apollo frontend development challenge. This project involved creating an application for a collector of NFTs to browse their NFTs and read the associated metadata.
 
-Users will be able to connect an Ethereum wallet
-Users will be able to see the NFTs owned for the MegaKongs collection
-Users will to be able to see the metadata for a selected NFT
+- Users will be able to connect an Ethereum wallet
+- Users will be able to see the NFTs owned for the MegaKongs collection
+- Users will be able to see the metadata for a selected NFT
 
 
 
@@ -45,7 +45,7 @@ Users will to be able to see the metadata for a selected NFT
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See [deployment](#deployment) for notes on how to deploy the project on a live system.
 
-If you are new to React.Js, I recommend reading the documentaion on [Getting started with create react app](https://github.com/devJasonClarke/Apollo-technical-challenge/blob/main/Getting-Started-with-Create-React-App.md) first.
+If you are new to React.Js, I recommend reading the documentation on [Getting started with create react app](https://github.com/devJasonClarke/Apollo-technical-challenge/blob/main/Getting-Started-with-Create-React-App.md) first.
 
 Having read the documentation, getting the project up and running is as simple as running a few commands and inserting the .env variables.
 
@@ -63,14 +63,14 @@ I also recommend installing the Yarn Package manager for high performance and to
 ### Installing
 A step by step series of examples that tell you how to get a development env running.
 
-Step 1: Install the dependencies by running the command below
+Install the dependencies by running the command below
 
 ```
 yarn install
 ```
 
 After the dependencies have been installed, you should now add the .env variables. 
-To add the .env variables create a .env file in the root of the project were the env.local is. The env.local has the names of the variables that are used in the project.
+To add the .env variables create a .env file in the root of the project where the env.local is. The env.local has the names of the variables that are used in the project.
 
 ```
 REACT_APP_MORALIS=''
@@ -83,7 +83,7 @@ REACT_APP_TOKEN_ADDRESSES is the MegaKongs contract provided by Apollo FE Challe
 
 REACT_APP_ETH_WALLET is the Ethereum wallet provided by Apollo FE Challenge challenge docs. 
 
-Once these are added the project should be now be ready for local development.
+Once these are added the project should now be ready for local development.
 
 To start the local server for development run:
 
