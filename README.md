@@ -3,7 +3,9 @@
  <img width=200px height=200px src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/768px-React-icon.svg.png?20220125121207" alt="Project logo"></a>
 </p>
 
-<h3 align="center">Project Title</h3>
+<h3 align="center">
+Apollo Technical Challenge
+</h3>
 
 <div align="center">
 
@@ -14,21 +16,21 @@
 
 ---
 
-<p align="center"> Few lines describing your project.
+<p align="center"> Apollo Technical Challenge
     <br> 
 </p>
 
 ## 📝 Table of Contents
-- [About](#about)
-- [Getting Started](#getting_started)
+- [About](#💻About  )
+- [Getting Started](#🏁Getting_Started)
 - [Prerequisites](#prerequisites)
 - [Installing](#installing)
-- [Deployment](#deployment)
-- [Tools](#tools)
+- [Deployment](#🚀Deployment )
+- [Tools](#⛏️Tools)
 
 
 
-## 💻 About  
+## 💻About  
 
 Welcome to the Apollo frontend development challenge. This project involved creating an application for a collector of NFTs to browse their NFTs and read the associated metadata.
 
@@ -39,7 +41,7 @@ Users will to be able to see the metadata for a selected NFT
 
 
 
-## 🏁 Getting Started
+## 🏁Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See [deployment](#deployment) for notes on how to deploy the project on a live system.
 
@@ -77,29 +79,26 @@ REACT_APP_ETH_WALLET=''
 ```
 REACT_APP_MORALIS is the API key from your Moralis account. Create an account here [Moralis](https://moralis.io/)
 
-REACT_APP_TOKEN_ADDRESSES is the MegaKongs MegaKongs contract provided by Apollo FE Challenge challenge docs. 
+REACT_APP_TOKEN_ADDRESSES is the MegaKongs contract provided by Apollo FE Challenge challenge docs. 
 
 REACT_APP_ETH_WALLET is the Ethereum wallet provided by Apollo FE Challenge challenge docs. 
 
 Once these are added the project should be now be ready for local development.
 
-## 🔧 Running the tests 
-Explain how to run the automated tests for this system.
 
-
-## 🚀 Deployment 
+## 🚀Deployment 
 - This application is successfully deployed on [Vercel](https://apollo-ten-taupe.vercel.app/).
 - To deploy this application, first fork it on Github.
 - Create an account at [Vercel](https://vercel.com/) if you do not have one already.
 - After creating an account, select add new project.
 - Under Import Git Repository, select continue with Github.
-- After that import the project from the list of your Github projects.
+- Next import the project from the list of your Github projects.
 - There is no need to change the build settings.
 - Under the Environment Variables section add the .env variables from [Installing](#installing).
 - Click deploy and your application will be live in a few seconds 🎉.
 
 
-## ⛏️ Tools
+## ⛏️Tools
 - [React.Js](https://www.mongodb.com/) - Frontend Library
 - [Rainbowkit](https://www.rainbowkit.com/) - The best way to connect a wallet 
 - [Moralis](https://moralis.io/) - Bridge the development gap between Web2 and Web3.
