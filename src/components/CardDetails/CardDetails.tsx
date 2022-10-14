@@ -11,8 +11,6 @@ interface Props {
 }
 
 export const CardDetails: React.FC<Props> = ({ toggle, id, details }) => {
-
-
   return (
     <div className={styles.card}>
       <div className={styles.top}>

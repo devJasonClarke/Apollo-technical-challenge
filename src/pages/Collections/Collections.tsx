@@ -33,9 +33,9 @@ const Collections: React.FC = () => {
     params: {
       chain: "eth",
       format: "decimal",
-      token_addresses: process.env.REACT_APP_TOKEN_ADDRESSES,
+      token_addresses: process.env.REACT_APP_TOKEN_ADDRESSES
     },
-    headers: { accept: "application/json", "X-API-Key": web3ApiKey },
+    headers: { accept: "application/json", "X-API-Key": web3ApiKey }
   };
 
   useEffect(() => {

@@ -29,7 +29,7 @@ const router = createBrowserRouter([
       <MainLayout>
         <Loggin />
       </MainLayout>
-    ),
+    )
   },
   {
     path: "/collections",
@@ -37,8 +37,8 @@ const router = createBrowserRouter([
       <MainLayout>
         <Collections />
       </MainLayout>
-    ),
-  },
+    )
+  }
 ]);
 
 const { chains, provider } = configureChains(
@@ -49,13 +49,13 @@ const { chains, provider } = configureChains(
 
 const { connectors } = getDefaultWallets({
   appName: "My RainbowKit App",
-  chains,
+  chains
 });
 
 const wagmiClient = createClient({
   autoConnect: true,
   connectors,
-  provider,
+  provider
 });
 
 let root = document.getElementById("root") as HTMLElement;

@@ -5,7 +5,7 @@ import { useNavigate } from "react-router-dom";
 
 export const CustomConnectButton: React.FC = () => {
   let navigate = useNavigate();
-  
+
   return (
     <ConnectButton.Custom>
       {({
@@ -15,7 +15,7 @@ export const CustomConnectButton: React.FC = () => {
         openChainModal,
         openConnectModal,
         authenticationStatus,
-        mounted,
+        mounted
       }) => {
         // Note: If your app doesn't use authentication, you
         // can remove all 'authenticationStatus' checks
@@ -43,8 +43,8 @@ export const CustomConnectButton: React.FC = () => {
               style: {
                 opacity: 0,
                 pointerEvents: "none",
-                userSelect: "none",
-              },
+                userSelect: "none"
+              }
             })}
           >
             {(() => {
@@ -87,7 +87,7 @@ export const CustomConnectButton: React.FC = () => {
                           height: 12,
                           borderRadius: 999,
                           overflow: "hidden",
-                          marginRight: 4,
+                          marginRight: 4
                         }}
                       >
                         {chain.iconUrl && (

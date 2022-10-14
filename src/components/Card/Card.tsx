@@ -48,7 +48,7 @@ export const Card: React.FC<Props> = ({ description, id }) => {
       { trait_type: "Eyes" },
       { trait_type: "Head Accessory" },
       { trait_type: "Mouth" },
-      { trait_type: "Stripe" },
+      { trait_type: "Stripe" }
     ];
 
     const neccesaryAttributes = parse.attributes.filter((el: any) => {

@@ -1,3 +1,3 @@
 export interface Description {
-descripton: string;
+  descripton: string;
 }
