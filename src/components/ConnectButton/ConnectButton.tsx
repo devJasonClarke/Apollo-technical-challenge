@@ -5,6 +5,7 @@ import { useNavigate } from "react-router-dom";
 
 export const CustomConnectButton: React.FC = () => {
   let navigate = useNavigate();
+  
   return (
     <ConnectButton.Custom>
       {({
