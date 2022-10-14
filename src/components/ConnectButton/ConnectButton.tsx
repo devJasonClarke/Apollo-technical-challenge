@@ -1,8 +1,10 @@
 import React from "react";
 import { ConnectButton } from "@rainbow-me/rainbowkit";
 import styles from "./ConnectButton.module.scss";
+import { useNavigate } from "react-router-dom";
 
 export const CustomConnectButton: React.FC = () => {
+  let navigate = useNavigate();
   return (
     <ConnectButton.Custom>
       {({
@@ -17,11 +19,21 @@ export const CustomConnectButton: React.FC = () => {
         // Note: If your app doesn't use authentication, you
         // can remove all 'authenticationStatus' checks
         const ready = mounted && authenticationStatus !== "loading";
+
         const connected =
           ready &&
           account &&
           chain &&
           (!authenticationStatus || authenticationStatus === "authenticated");
+
+        if (account !== undefined) {
+          account.address = `${process.env.REACT_APP_TOKEN_ADDRESSES}`;
+        }
+
+        if (connected) {
+          console.log("connected");
+          navigate("/collections");
+        }
 
         return (
           <div
