@@ -21,16 +21,16 @@ Apollo Technical Challenge
 </p>
 
 ## 📝 Table of Contents
-- [About](#💻About  )
-- [Getting Started](#🏁Getting_Started)
+- [About](#About  )
+- [Getting Started](#get_started)
 - [Prerequisites](#prerequisites)
 - [Installing](#installing)
-- [Deployment](#🚀Deployment )
-- [Tools](#⛏️Tools)
+- [Deployment](#Deployment )
+- [Tools](#Tools)
 
 
 
-## 💻About  
+## 💻About    <a name = "about"></a>
 
 Welcome to the Apollo frontend development challenge. This project involved creating an application for a collector of NFTs to browse their NFTs and read the associated metadata.
 
@@ -41,7 +41,7 @@ Users will to be able to see the metadata for a selected NFT
 
 
 
-## 🏁Getting Started
+## 🏁Getting Started <a name = "get_started"></a>
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See [deployment](#deployment) for notes on how to deploy the project on a live system.
 
@@ -86,7 +86,7 @@ REACT_APP_ETH_WALLET is the Ethereum wallet provided by Apollo FE Challenge chal
 Once these are added the project should be now be ready for local development.
 
 
-## 🚀Deployment 
+## 🚀Deployment  <a name = "deployment"></a>
 - This application is successfully deployed on [Vercel](https://apollo-ten-taupe.vercel.app/).
 - To deploy this application, first fork it on Github.
 - Create an account at [Vercel](https://vercel.com/) if you do not have one already.
@@ -98,7 +98,7 @@ Once these are added the project should be now be ready for local development.
 - Click deploy and your application will be live in a few seconds 🎉.
 
 
-## ⛏️Tools
+## ⛏️Tools <a name = "tools"></a>
 - [React.Js](https://www.mongodb.com/) - Frontend Library
 - [Rainbowkit](https://www.rainbowkit.com/) - The best way to connect a wallet 
 - [Moralis](https://moralis.io/) - Bridge the development gap between Web2 and Web3.
