@@ -8,12 +8,12 @@ interface Props {
 
 export const Paragraph: React.FC<Props> = ({ text, color }) => {
   return (
-    <h1
+    <p
       className={
         color === "alt" ? `${styles.paragraph} ${styles.alt}` : styles.paragraph
       }
     >
       {text}
-    </h1>
+    </p>
   );
 };
