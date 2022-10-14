@@ -85,6 +85,12 @@ REACT_APP_ETH_WALLET is the Ethereum wallet provided by Apollo FE Challenge chal
 
 Once these are added the project should be now be ready for local development.
 
+To start the local server for development run:
+
+```
+yarn start
+```
+
 
 ## 🚀Deployment  <a name = "deployment"></a>
 - This application is successfully deployed on [Vercel](https://apollo-ten-taupe.vercel.app/).
