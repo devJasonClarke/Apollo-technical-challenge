@@ -1,46 +1,106 @@
-# How to install and run the application
+<p align="center">
+  <a href="" rel="noopener">
+ <img width=200px height=200px src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K" alt="Project logo"></a>
+</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). Please see [Getting Started with create React app] for the basic information needed to start this project.
+<h3 align="center">Project Title</h3>
 
-## Available Scripts
+<div align="center">
 
-In the project directory, you can run:
+  [![Status](https://img.shields.io/badge/status-active-success.svg)]() 
 
-### `yarn start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+</div>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+---
 
-### `yarn test`
+<p align="center"> Few lines describing your project.
+    <br> 
+</p>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 📝 Table of Contents
+- [About](#about)
+- [Getting Started](#getting_started)
+- [Prerequisites](#prerequisites)
+- [Installing](#installing)
+- [Deployment](#deployment)
+- [Tools](#tools)
 
-### `yarn build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 💻 About  
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Welcome to the Apollo frontend development challenge. This project involved creating an application for a collector of NFTs to browse their NFTs and read the associated metadata.
 
-### `yarn eject`
+Users will be able to connect an Ethereum wallet
+Users will be able to see the NFTs owned for the MegaKongs collection
+Users will to be able to see the metadata for a selected NFT
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## 🏁 Getting Started
 
-## Learn More
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See [deployment](#deployment) for notes on how to deploy the project on a live system.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+If you are new to React.Js, I recommend reading the documentaion on [Getting started with create react app](https://github.com/devJasonClarke/Apollo-technical-challenge/blob/main/Getting-Started-with-Create-React-App.md) first.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Having read the documentation, getting the project up and running is as simple as running a few commands and inserting the .env variables.
+
+
+### Prerequisites
+In order to run this project you will have to install Node.Js on your system. I recommend installing the LTS version as it is appropriate for most users.
+
+[Install Node.Js](https://nodejs.org/en/)
+
+I also recommend installing the Yarn Package manager for high performance and to be in sync with this guide.
+
+[Install Yarn](https://yarnpkg.com/)
+
+
+### Installing
+A step by step series of examples that tell you how to get a development env running.
+
+Step 1: Install the dependencies by running the command below
+
+```
+yarn install
+```
+
+After the dependencies have been installed, you should now add the .env variables. 
+To add the .env variables create a .env file in the root of the project were the env.local is. The env.local has the names of the variables that are used in the project.
+
+```
+REACT_APP_MORALIS=''
+REACT_APP_TOKEN_ADDRESSES=''
+REACT_APP_ETH_WALLET=''
+```
+REACT_APP_MORALIS is the API key from your Moralis account. Create an account here [Moralis](https://moralis.io/)
+
+REACT_APP_TOKEN_ADDRESSES is the MegaKongs MegaKongs contract provided by Apollo FE Challenge challenge docs. 
+
+REACT_APP_ETH_WALLET is the Ethereum wallet provided by Apollo FE Challenge challenge docs. 
+
+Once these are added the project should be now be ready for local development.
+
+## 🔧 Running the tests 
+Explain how to run the automated tests for this system.
+
+
+## 🚀 Deployment 
+- This application is successfully deployed on [Vercel](https://apollo-ten-taupe.vercel.app/).
+- To deploy this application, first fork it on Github.
+- Create an account at [Vercel](https://vercel.com/) if you do not have one already.
+- After creating an account, select add new project.
+- Under Import Git Repository, select continue with Github.
+- After that import the project from the list of your Github projects.
+- There is no need to change the build settings.
+- Under the Environment Variables section add the .env variables from [Installing](#installing).
+- Click deploy and your application will be live in a few seconds 🎉.
+
+
+## ⛏️ Tools
+- [React.Js](https://www.mongodb.com/) - Frontend Library
+- [Rainbowkit](https://www.rainbowkit.com/) - The best way to connect a wallet 
+- [Moralis](https://moralis.io/) - Bridge the development gap between Web2 and Web3.
+
