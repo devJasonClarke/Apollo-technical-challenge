@@ -19,7 +19,7 @@ import { DashboardLayout } from "./layouts/Dashboard/DashboardLayout";
 
 //Pages
 import Collections from "./pages/Collections/Collections";
-import Loggin from "./pages/Loggin/Loggin";
+import Login from "./pages/Login/Login";
 
 import reportWebVitals from "./reportWebVitals";
 
@@ -28,7 +28,7 @@ const router = createBrowserRouter([
     path: "/",
     element: (
       <LoginLayout>
-        <Loggin />
+        <Login />
       </LoginLayout>
     )
   },

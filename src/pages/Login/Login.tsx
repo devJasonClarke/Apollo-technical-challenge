@@ -1,11 +1,11 @@
 import React, { useEffect } from "react";
-import style from "./Loggin.module.scss";
+import style from "./Login.module.scss";
 import { Link } from "react-router-dom";
 import { Paragraph } from "../../components/Paragraph/Paragraph";
 import { Heading } from "../../components/Heading/Heading";
 import { CustomConnectButton } from "../../components/ConnectButton/ConnectButton";
 
-const Loggin: React.FC = () => {
+const Login: React.FC = () => {
   return (
     <div className={style.container}>
       <Heading text="connect" />
@@ -23,4 +23,4 @@ const Loggin: React.FC = () => {
   );
 };
 
-export default Loggin;
+export default Login;
