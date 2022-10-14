@@ -58,7 +58,6 @@ export const Card: React.FC<Props> = ({ description, id }) => {
     });
 
     parse.attributes = neccesaryAttributes;
-    console.log(parse);
     setDetails(parse);
   }, []);
 

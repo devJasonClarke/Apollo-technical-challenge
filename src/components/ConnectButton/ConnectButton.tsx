@@ -32,7 +32,6 @@ export const CustomConnectButton: React.FC = () => {
         }
 
         if (connected) {
-          console.log("connected");
           navigate("/collections");
         }
 

@@ -42,7 +42,6 @@ const Collections: React.FC = () => {
     axios
       .request(options)
       .then(function (response) {
-        console.log(response.data);
         setNFT(response.data.result);
       })
       .catch(function (error) {
